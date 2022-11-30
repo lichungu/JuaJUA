@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.DefaultCompany.juaJUA"
+    package="com.wafreeka.juaJUA"
     android:installLocation="preferExternal"
     android:versionCode="1"
-    android:versionName="0.1" >
+    android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="25"
+        android:minSdkVersion="26"
         android:targetSdkVersion="30" />
 
     <supports-screens
@@ -20,8 +20,13 @@
     <uses-feature
         android:name="android.hardware.vulkan.version"
         android:required="false" />
+    <uses-feature
+        android:name="android.hardware.type.pc"
+        android:required="false" />
+    <uses-feature android:name="android.software.home_screen" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -30,6 +35,21 @@
         android:required="false" />
     <uses-feature
         android:name="android.hardware.location"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
         android:required="false" />
     <uses-feature
         android:name="android.hardware.touchscreen"
@@ -83,6 +103,19 @@
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="optional" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+        <meta-data
+            android:name="com.google.ar.core.min_apk_version"
+            android:value="200501000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+        <activity
+            android:name="com.google.ar.core.InstallActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
     </application>
 
 </manifest>

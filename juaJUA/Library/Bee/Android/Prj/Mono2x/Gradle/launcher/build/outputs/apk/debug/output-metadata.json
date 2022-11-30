@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.DefaultCompany.juaJUA",
+  "applicationId": "com.wafreeka.juaJUA",
   "variantName": "debug",
   "elements": [
     {
@@ -12,7 +12,7 @@
       "filters": [],
       "properties": [],
       "versionCode": 1,
-      "versionName": "0.1",
+      "versionName": "1.0",
       "enabled": true,
       "outputFile": "launcher-debug.apk"
     }

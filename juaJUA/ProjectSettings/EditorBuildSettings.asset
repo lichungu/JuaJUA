@@ -8,8 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/startScene.unity
     guid: ad7be18b807a6dd4793d704269d11cd6
+  - enabled: 1
+    path: Assets/Scenes/elephantTest.unity
+    guid: e538a8ca176a02447a26b416ef24f753
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 81c3fb1af786b5a4b80b47f5b5848f3b, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 529fcd3716d569743a239f32efc9c532, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: ae774a19cc6278c4cbeec4b0b586536d, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 76dba6a2558c8854a8ded35c81edd071, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 226b4996357c28847a0794f341268c74, type: 2}

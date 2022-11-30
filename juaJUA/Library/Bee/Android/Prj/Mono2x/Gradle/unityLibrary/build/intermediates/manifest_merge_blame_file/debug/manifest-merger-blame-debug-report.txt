@@ -3,139 +3,186 @@
 3    xmlns:tools="http://schemas.android.com/tools"
 4    package="com.unity3d.player"
 5    android:versionCode="1"
-6    android:versionName="0.1" >
+6    android:versionName="1.0" >
 7
 8    <uses-sdk
-9        android:minSdkVersion="25"
-9-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9        android:minSdkVersion="26"
+9-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="30" />
-10-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 11
 12    <uses-feature android:glEsVersion="0x00030000" />
-12-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:3-52
-12-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:17-49
+12-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:3-52
+12-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-49
 13    <uses-feature
-13-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:3-91
+13-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-91
 14        android:name="android.hardware.vulkan.version"
-14-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-63
+14-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-63
 15        android:required="false" />
-15-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:64-88
-16
-17    <uses-permission android:name="android.permission.INTERNET" />
-17-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-65
-17-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:20-62
-18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-77
-18-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-74
-19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-19-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-77
-19-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-74
+15-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:64-88
+16    <uses-feature
+16-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-84
+17        android:name="android.hardware.type.pc"
+17-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-56
+18        android:required="false" />
+18-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:57-81
+19    <uses-feature android:name="android.software.home_screen" />
+19-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-63
+19-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-60
 20
-21    <uses-feature
-21-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-89
-22        android:name="android.hardware.location.gps"
-22-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-61
-23        android:required="false" />
-23-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:62-86
-24    <uses-feature
-24-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-85
-25        android:name="android.hardware.location"
-25-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-57
-26        android:required="false" />
-26-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:58-82
-27    <uses-feature
-27-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-88
-28        android:name="android.hardware.touchscreen"
-28-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-60
-29        android:required="false" />
-29-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:61-85
-30    <uses-feature
-30-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-99
-31        android:name="android.hardware.touchscreen.multitouch"
-31-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-71
-32        android:required="false" />
-32-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:72-96
-33    <uses-feature
-33-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-108
-34        android:name="android.hardware.touchscreen.multitouch.distinct"
-34-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-80
-35        android:required="false" />
-35-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:81-105
-36
-37    <application android:extractNativeLibs="true" >
-37-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-17:17
-37-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
-38        <activity
-38-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
-39            android:name="com.unity3d.player.UnityPlayerActivity"
-39-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
-40            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-40-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
-41            android:hardwareAccelerated="false"
-41-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
-42            android:launchMode="singleTask"
-42-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
-43            android:resizeableActivity="false"
-43-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
-44            android:screenOrientation="fullUser"
-44-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
-45            android:theme="@style/UnityThemeSelector" >
-45-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
-46            <intent-filter>
-46-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
-47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
-47-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
-49-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
-50            </intent-filter>
-51
-52            <meta-data
-52-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
-53                android:name="unityplayer.UnityActivity"
-53-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
-54                android:value="true" />
-54-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
-55            <meta-data
-55-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
-56                android:name="android.notch_support"
-56-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
-57                android:value="true" />
-57-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
-58        </activity>
-59
-60        <meta-data
-60-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
-61            android:name="unity.splash-mode"
-61-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
-62            android:value="0" />
-62-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
-63        <meta-data
-63-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
-64            android:name="unity.splash-enable"
-64-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
-65            android:value="True" />
-65-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
-66        <meta-data
-66-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
-67            android:name="unity.launch-fullscreen"
-67-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
-68            android:value="True" />
-68-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
-69        <meta-data
-69-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
-70            android:name="unity.allow-resizable-window"
-70-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
-71            android:value="False" />
-71-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
-72        <meta-data
-72-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
-73            android:name="notch.config"
-73-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
-74            android:value="portrait|landscape" />
-74-->C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
-75    </application>
-76
-77</manifest>
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-65
+21-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-62
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-64
+22-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:20-61
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-77
+23-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:20-74
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-77
+24-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:20-74
+25
+26    <uses-feature
+26-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-89
+27        android:name="android.hardware.location.gps"
+27-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-61
+28        android:required="false" />
+28-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:62-86
+29    <uses-feature
+29-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-85
+30        android:name="android.hardware.location"
+30-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-57
+31        android:required="false" />
+31-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:58-82
+32
+33    <uses-permission android:name="android.permission.CAMERA" />
+33-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-63
+33-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-60
+34
+35    <uses-feature
+35-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-83
+36        android:name="android.hardware.camera"
+36-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-55
+37        android:required="false" />
+37-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:56-80
+38    <uses-feature
+38-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-93
+39        android:name="android.hardware.camera.autofocus"
+39-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-65
+40        android:required="false" />
+40-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:66-90
+41    <uses-feature
+41-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-89
+42        android:name="android.hardware.camera.front"
+42-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-61
+43        android:required="false" />
+43-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:62-86
+44    <uses-feature
+44-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-97
+45        android:name="android.hardware.sensor.accelerometer"
+45-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-69
+46        android:required="false" />
+46-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:70-94
+47    <uses-feature
+47-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-88
+48        android:name="android.hardware.touchscreen"
+48-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-60
+49        android:required="false" />
+49-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:61-85
+50    <uses-feature
+50-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-99
+51        android:name="android.hardware.touchscreen.multitouch"
+51-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:17-71
+52        android:required="false" />
+52-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:72-96
+53    <uses-feature
+53-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-108
+54        android:name="android.hardware.touchscreen.multitouch.distinct"
+54-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:17-80
+55        android:required="false" />
+55-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:81-105
+56
+57    <application android:extractNativeLibs="true" >
+57-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-18:17
+57-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+58        <activity
+58-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+59            android:name="com.unity3d.player.UnityPlayerActivity"
+59-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+60            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+60-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+61            android:hardwareAccelerated="false"
+61-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+62            android:launchMode="singleTask"
+62-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+63            android:resizeableActivity="false"
+63-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+64            android:screenOrientation="fullUser"
+64-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+65            android:theme="@style/UnityThemeSelector" >
+65-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+66            <intent-filter>
+66-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+67-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+69-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+70            </intent-filter>
+71
+72            <meta-data
+72-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+73                android:name="unityplayer.UnityActivity"
+73-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+74                android:value="true" />
+74-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+75            <meta-data
+75-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+76                android:name="android.notch_support"
+76-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+77                android:value="true" />
+77-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+78        </activity>
+79
+80        <meta-data
+80-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+81            android:name="unity.splash-mode"
+81-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+82            android:value="0" />
+82-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+83        <meta-data
+83-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+84            android:name="unity.splash-enable"
+84-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+85            android:value="True" />
+85-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+86        <meta-data
+86-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+87            android:name="unity.launch-fullscreen"
+87-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+88            android:value="True" />
+88-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+89        <meta-data
+89-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+90            android:name="unity.allow-resizable-window"
+90-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+91            android:value="False" />
+91-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+92        <meta-data
+92-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+93            android:name="notch.config"
+93-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+94            android:value="portrait|landscape" />
+94-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+95        <meta-data
+95-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-77
+96            android:name="com.google.ar.core"
+96-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-49
+97            android:value="optional" />
+97-->C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:50-74
+98    </application>
+99
+100</manifest>

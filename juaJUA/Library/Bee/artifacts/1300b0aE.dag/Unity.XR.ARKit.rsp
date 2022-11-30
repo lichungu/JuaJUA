@@ -122,9 +122,22 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ARGPS_USE_VUFORIA
+-define:PLAYMAKER
+-define:PLAYMAKER_1_9
+-define:PLAYMAKER_1_9_1
+-define:PLAYMAKER_1_8_OR_NEWER
+-define:PLAYMAKER_1_8_5_OR_NEWER
+-define:PLAYMAKER_1_9_OR_NEWER
+-define:PLAYMAKER_TMPRO
 -define:UNITY_INPUT_SYSTEM
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/PlayMaker/ConditionalExpression.dll"
+-r:"Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll"
+-r:"Assets/PlayMaker/Editor/PlayMakerEditor.dll"
+-r:"Assets/PlayMaker/Editor/PlayMakerEditorResources.dll"
+-r:"Assets/Plugins/PlayMaker/PlayMaker.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -337,16 +350,16 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.ARSubsystems.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Management.ref.dll"

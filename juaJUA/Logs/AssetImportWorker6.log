@@ -1,0 +1,2365 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16251 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/lichu/Documents/jua/JuaJUA/juaJUA
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+57857
+Successfully changed project path to: C:/Users/lichu/Documents/jua/JuaJUA/juaJUA
+C:/Users/lichu/Documents/jua/JuaJUA/juaJUA
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 260.89 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 1.42 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   31.0.15.1700
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.030630 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 130.29 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1287ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (458ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (97ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.023194 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 139.80 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.559 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2560ms)
+		BeginReloadAssembly (320ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (2079ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (1342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (951ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 5746 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (163.4 KB). Loaded Objects now: 6514.
+Memory consumption went from 192.7 MB to 192.6 MB.
+Total: 4.862000 ms (FindLiveObjects: 0.537800 ms CreateObjectMapping: 0.422000 ms MarkObjects: 3.728000 ms  DeleteObjects: 0.173300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46642.957921 seconds.
+  path: Assets/ARLocation/Locations/Ap01.asset
+  artifactKey: Guid(02ee5e625347ced43aa5f15f5d957c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Locations/Ap01.asset using Guid(02ee5e625347ced43aa5f15f5d957c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7527c11bad6c9c21c082f7f7e6df4b65') in 0.049688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARLocation/Locations/IbiraHotspot03.asset
+  artifactKey: Guid(c258de47fb97cb448903cd1cea26d065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Locations/IbiraHotspot03.asset using Guid(c258de47fb97cb448903cd1cea26d065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4721645033b17d7dca3c695fc16ef1') in 0.012168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ARLocation/Locations/IbiraHotspot02.asset
+  artifactKey: Guid(45bce40008a90f941810386f51688662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Locations/IbiraHotspot02.asset using Guid(45bce40008a90f941810386f51688662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eef46f71c6aaf0a03a11eaae7b9374') in 0.011739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.151512 seconds.
+  path: Assets/ARLocation/Prefabs/Cube.prefab
+  artifactKey: Guid(cb9f1b1afb5b45644a695b961c989123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Prefabs/Cube.prefab using Guid(cb9f1b1afb5b45644a695b961c989123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5955322990fa1bb9cd001697b7bfd9') in 0.119385 seconds 
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 32.13 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 87 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (127.4 KB). Loaded Objects now: 6525.
+Memory consumption went from 81.3 MB to 81.2 MB.
+Total: 7.470700 ms (FindLiveObjects: 0.795600 ms CreateObjectMapping: 0.826700 ms MarkObjects: 5.622700 ms  DeleteObjects: 0.224000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 33.14 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 87 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (127.4 KB). Loaded Objects now: 6525.
+Memory consumption went from 81.3 MB to 81.2 MB.
+Total: 5.634000 ms (FindLiveObjects: 0.600400 ms CreateObjectMapping: 0.570200 ms MarkObjects: 4.306900 ms  DeleteObjects: 0.155700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020329 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.149 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2150ms)
+		BeginReloadAssembly (305ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (1712ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1088ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (873ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 14.98 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 5700 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (130.3 KB). Loaded Objects now: 6528.
+Memory consumption went from 193.9 MB to 193.7 MB.
+Total: 5.519100 ms (FindLiveObjects: 0.532000 ms CreateObjectMapping: 0.525000 ms MarkObjects: 4.268100 ms  DeleteObjects: 0.192800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026136 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.055 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2056ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1687ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1053ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (834ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 11.47 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (130.3 KB). Loaded Objects now: 6533.
+Memory consumption went from 193.9 MB to 193.8 MB.
+Total: 6.333300 ms (FindLiveObjects: 0.490600 ms CreateObjectMapping: 0.472500 ms MarkObjects: 5.216300 ms  DeleteObjects: 0.153000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021619 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1896ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1618ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1011ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (815ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 11.48 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (130.1 KB). Loaded Objects now: 6537.
+Memory consumption went from 193.9 MB to 193.8 MB.
+Total: 4.845500 ms (FindLiveObjects: 0.720900 ms CreateObjectMapping: 0.642400 ms MarkObjects: 3.106100 ms  DeleteObjects: 0.374600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019744 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.188 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2189ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1882ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (1164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (937ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 13.95 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 5701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (130.3 KB). Loaded Objects now: 6541.
+Memory consumption went from 193.9 MB to 193.8 MB.
+Total: 6.286700 ms (FindLiveObjects: 0.807300 ms CreateObjectMapping: 0.707700 ms MarkObjects: 4.487300 ms  DeleteObjects: 0.282800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019850 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1906ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1650ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1062ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (857ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 10.66 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 5701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (130.2 KB). Loaded Objects now: 6545.
+Memory consumption went from 194.0 MB to 193.8 MB.
+Total: 5.650500 ms (FindLiveObjects: 0.499300 ms CreateObjectMapping: 0.746900 ms MarkObjects: 4.175600 ms  DeleteObjects: 0.227500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023003 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1981ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1695ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1096ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (882ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 13.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 5701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (130.2 KB). Loaded Objects now: 6549.
+Memory consumption went from 194.0 MB to 193.8 MB.
+Total: 4.619800 ms (FindLiveObjects: 0.727800 ms CreateObjectMapping: 0.533100 ms MarkObjects: 3.179600 ms  DeleteObjects: 0.178000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 27.53 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 87 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (127.6 KB). Loaded Objects now: 6549.
+Memory consumption went from 81.5 MB to 81.4 MB.
+Total: 5.155500 ms (FindLiveObjects: 0.534600 ms CreateObjectMapping: 0.518000 ms MarkObjects: 3.915600 ms  DeleteObjects: 0.186400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022976 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1986ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1702ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1087ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (887ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 11.67 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (130.3 KB). Loaded Objects now: 6553.
+Memory consumption went from 194.0 MB to 193.9 MB.
+Total: 5.825700 ms (FindLiveObjects: 0.757400 ms CreateObjectMapping: 0.824300 ms MarkObjects: 4.102100 ms  DeleteObjects: 0.140200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 30.09 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 87 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (127.6 KB). Loaded Objects now: 6553.
+Memory consumption went from 81.5 MB to 81.4 MB.
+Total: 6.179300 ms (FindLiveObjects: 0.551400 ms CreateObjectMapping: 0.536100 ms MarkObjects: 4.618500 ms  DeleteObjects: 0.472200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12834.925934 seconds.
+  path: Assets/ARLocation/Meshes/fighter_plane.fbx
+  artifactKey: Guid(6c83746b298a67d4bbbcc0b50936e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Meshes/fighter_plane.fbx using Guid(6c83746b298a67d4bbbcc0b50936e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8792cd76bb2d82fc1a7c0e1666ebb17c') in 1.205228 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025473 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3474ms)
+		BeginReloadAssembly (1221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (592ms)
+		EndReloadAssembly (2073ms)
+			LoadAssemblies (428ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (560ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1161ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (901ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 21.35 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5704 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (0.8 MB). Loaded Objects now: 6594.
+Memory consumption went from 198.4 MB to 197.5 MB.
+Total: 5.601000 ms (FindLiveObjects: 0.478000 ms CreateObjectMapping: 0.450400 ms MarkObjects: 4.175600 ms  DeleteObjects: 0.496000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16067.506199 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Props/TFF_Debris_01A.prefab
+  artifactKey: Guid(847f9abe4a18f1a40b4fd0d6424d5612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Props/TFF_Debris_01A.prefab using Guid(847f9abe4a18f1a40b4fd0d6424d5612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f44cf34f5d75a9f15075b655b6d77a0') in 0.711682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Props/TFF_Gas_Lamp_01A.prefab
+  artifactKey: Guid(29895fc68bf1a914bacf5c4b16099cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Props/TFF_Gas_Lamp_01A.prefab using Guid(29895fc68bf1a914bacf5c4b16099cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e769211066ba16d0992beb2f8d782769') in 0.302579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Props/TFF_Wood_Log_01A.prefab
+  artifactKey: Guid(7e1ea7f74612bf2409227fd7b13be9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Props/TFF_Wood_Log_01A.prefab using Guid(7e1ea7f74612bf2409227fd7b13be9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0cd01a2fb73aadef1744b4de62f400') in 0.046140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Props/TFF_Wood_Plank_01A.prefab
+  artifactKey: Guid(7c627b7f786e3e04a86cd5a9f63a0c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Props/TFF_Wood_Plank_01A.prefab using Guid(7c627b7f786e3e04a86cd5a9f63a0c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830f97d55b2ff5a8012fb6cfd52cf065') in 0.041032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.255377 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Large_02A.prefab
+  artifactKey: Guid(98bd1645b1b8d7a4d93c120852cde4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Large_02A.prefab using Guid(98bd1645b1b8d7a4d93c120852cde4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a7b54b54a303efb2a93862c8c0ca10') in 0.052432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Medium_07A.prefab
+  artifactKey: Guid(ef026dd1709640842b399870075f1474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Medium_07A.prefab using Guid(ef026dd1709640842b399870075f1474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f0ff84bd858e4495adc34cd289818f') in 0.055759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Medium_02A.prefab
+  artifactKey: Guid(c50c2430bda2db5498adb34b279a4c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Medium_02A.prefab using Guid(c50c2430bda2db5498adb34b279a4c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a399e806d560e7031abe550bae80b5e6') in 0.055607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Medium_05A.prefab
+  artifactKey: Guid(1c06eb4e970a3ed43872bf78aae3379f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Medium_05A.prefab using Guid(1c06eb4e970a3ed43872bf78aae3379f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6f4365440e4a38d37bbe64e4fc294d') in 0.055012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Small_01A.prefab
+  artifactKey: Guid(0e3de1693bf3e3a4c81779bb12633908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Small_01A.prefab using Guid(0e3de1693bf3e3a4c81779bb12633908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fa054a4222bc2828d4164f9bd7d01e') in 0.050357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Large_06A.prefab
+  artifactKey: Guid(3efef0c3914bf95429aeb0141ca3a994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Large_06A.prefab using Guid(3efef0c3914bf95429aeb0141ca3a994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d6ed77f31b10a82f73dc5a59f42192') in 0.074644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Large_03A.prefab
+  artifactKey: Guid(072fc000066065241bbe53d0fce35fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Large_03A.prefab using Guid(072fc000066065241bbe53d0fce35fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5440d4cd5011c300eaed68f39eaa83b') in 0.055830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Medium_06A.prefab
+  artifactKey: Guid(a81763150bed0ad459b6743638ad5be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Rock_Medium_06A.prefab using Guid(a81763150bed0ad459b6743638ad5be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4c71ca9b373607fc5aabf2646f622e') in 0.052560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Stone_Slab_01A.prefab
+  artifactKey: Guid(7a1ba496be1afb54e929ae8dafda3ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Stone_Slab_01A.prefab using Guid(7a1ba496be1afb54e929ae8dafda3ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0a183a861e32b744ccffed2e658335') in 0.051177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Stone_Slab_02A.prefab
+  artifactKey: Guid(37e175973f8fe5f4aabfc8d0ec06c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Rocks/TFF_Stone_Slab_02A.prefab using Guid(37e175973f8fe5f4aabfc8d0ec06c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d479361ff317fa9e5e2ee6e6c59fa4') in 0.040314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.919875 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A_LOD_1.fbx
+  artifactKey: Guid(ef55eb47f764c494ba6e14d556a6baa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A_LOD_1.fbx using Guid(ef55eb47f764c494ba6e14d556a6baa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2867adbb705aa36daf84322e83670ba') in 0.101903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A_LOD_2.fbx
+  artifactKey: Guid(129e04987a348d648b8cc0888eaa46aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A_LOD_2.fbx using Guid(129e04987a348d648b8cc0888eaa46aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b80374cec6e884d7c3bc8362ec752b') in 0.101540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01C_LOD_2.fbx
+  artifactKey: Guid(176d483000b659d48ab6c1bffb2326f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01C_LOD_2.fbx using Guid(176d483000b659d48ab6c1bffb2326f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981bbeba7a7ace1d443c88140f940b21') in 0.091118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02D_LOD_1.fbx
+  artifactKey: Guid(6a3afa534d68b714da60ce56a3e07149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02D_LOD_1.fbx using Guid(6a3afa534d68b714da60ce56a3e07149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58452278dcc9e99036a0e55dcb7ac6f') in 0.085456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A_LOD_1.fbx
+  artifactKey: Guid(2288bfa3830b05343aec2bdf372ff06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A_LOD_1.fbx using Guid(2288bfa3830b05343aec2bdf372ff06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b0ae0ca3d8af59769c01f39f1bda4a') in 0.083445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01B.fbx
+  artifactKey: Guid(038fabaf660d9f946a36c0156d0990ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01B.fbx using Guid(038fabaf660d9f946a36c0156d0990ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b818a53c6fca1d4814cfd41cc0da373c') in 0.086432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01B_LOD_1.fbx
+  artifactKey: Guid(29197019c45ed8c4f87191ab6756c9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01B_LOD_1.fbx using Guid(29197019c45ed8c4f87191ab6756c9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcddaa08cce6f6c6f01c6955286b4c07') in 0.089359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02B.fbx
+  artifactKey: Guid(2dc853277b700d64d83e451c033d2e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02B.fbx using Guid(2dc853277b700d64d83e451c033d2e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14210723dc2c54a5dd73c21003f8d7a3') in 0.093434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03C.fbx
+  artifactKey: Guid(5d609d97dc8523d4e93a730c6bd9f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03C.fbx using Guid(5d609d97dc8523d4e93a730c6bd9f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7336c213f60c4991a8192696aa3a980') in 0.092711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01C_LOD_1.fbx
+  artifactKey: Guid(dc19b49497eb59a40a98d2de84a855ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01C_LOD_1.fbx using Guid(dc19b49497eb59a40a98d2de84a855ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967554f5cb9479ef40faac1855472930') in 0.096785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01D.fbx
+  artifactKey: Guid(a6a383974abe0cf41be5076f71ca567c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01D.fbx using Guid(a6a383974abe0cf41be5076f71ca567c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404899f667e9ea10f6fd863526c52ff9') in 0.091701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03D.fbx
+  artifactKey: Guid(cda0c91cc772cf347b2c44f721f7ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03D.fbx using Guid(cda0c91cc772cf347b2c44f721f7ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd084e28a63acd8fd442008bfb87312') in 0.091811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02B_LOD_2.fbx
+  artifactKey: Guid(de45dc81ad848b946910ad9be88e9c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02B_LOD_2.fbx using Guid(de45dc81ad848b946910ad9be88e9c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e97b8cf5a165ea88fe1b9cd4789f64') in 0.088199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A.fbx
+  artifactKey: Guid(a9f4e315accb8fe4fa3dd23137116b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A.fbx using Guid(a9f4e315accb8fe4fa3dd23137116b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7dd5e0a1ffd15341cde9530b3eb652') in 0.096305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A_LOD_1.fbx
+  artifactKey: Guid(60cb8afaf436cfd468b53d2de13e002b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A_LOD_1.fbx using Guid(60cb8afaf436cfd468b53d2de13e002b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dc30f64d468964d1a0922f89133ef1') in 0.101980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02C.fbx
+  artifactKey: Guid(d313845aa24c108458c1797f35605833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02C.fbx using Guid(d313845aa24c108458c1797f35605833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8330df9baaebc347733ba0047ee5c3') in 0.103638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.435200 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01A_LOD_1.fbx
+  artifactKey: Guid(6f400eb6f5ca7d841a73df3581d62d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01A_LOD_1.fbx using Guid(6f400eb6f5ca7d841a73df3581d62d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9d023447e1249fdd12f5059d91cc1b') in 0.101277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02A.fbx
+  artifactKey: Guid(d700ad11607eb9a449e35d35941a7d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02A.fbx using Guid(d700ad11607eb9a449e35d35941a7d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bd8f59f4d7d1d45ab07e490aaf2d9e') in 0.078407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02B_LOD_1.fbx
+  artifactKey: Guid(3a7ee8db860534b43b80e6a62ef22cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02B_LOD_1.fbx using Guid(3a7ee8db860534b43b80e6a62ef22cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4980c743adfc19b4e6c61af102a7b78') in 0.075177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_01A_LOD_1.fbx
+  artifactKey: Guid(324635901d2aa494d90bfee441db920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_01A_LOD_1.fbx using Guid(324635901d2aa494d90bfee441db920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae144568561d520cc6d2d72edaaf232') in 0.082012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_01A_LOD_2.fbx
+  artifactKey: Guid(c98430d83d6b16b47ba3c83d6af6d842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_01A_LOD_2.fbx using Guid(c98430d83d6b16b47ba3c83d6af6d842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373d869d135a6ed54d1141435b174795') in 0.099124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01B_LOD_2.fbx
+  artifactKey: Guid(81ba9098946981443994dffbf3da9438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01B_LOD_2.fbx using Guid(81ba9098946981443994dffbf3da9438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb884bcde844849087e160bc05bb6638') in 0.101204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01B_LOD_1.fbx
+  artifactKey: Guid(2f0008fa544791a4c902dfef9ed32ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01B_LOD_1.fbx using Guid(2f0008fa544791a4c902dfef9ed32ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50f0ef3439f841e0d2743f9d938984d') in 0.097892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Board_Birch_Tree_01A.fbx
+  artifactKey: Guid(85be8a5802bbd2b4c8ab62c5036c3b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Board_Birch_Tree_01A.fbx using Guid(85be8a5802bbd2b4c8ab62c5036c3b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1f962d140584908980c1d2ddbe3212') in 0.279445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Board_Birch_Tree_03A.fbx
+  artifactKey: Guid(0e4a191571a81b34c90f7e38e64081fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Board_Birch_Tree_03A.fbx using Guid(0e4a191571a81b34c90f7e38e64081fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972987de41535430376245182d2ea35') in 0.077858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Debris_01A.fbx
+  artifactKey: Guid(7d185716e38f7cf4e827b1fdb3a7006d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Debris_01A.fbx using Guid(7d185716e38f7cf4e827b1fdb3a7006d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa13e5c2fdc3b64a6ead739f3aaee0f8') in 0.093359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Bush_03B.fbx
+  artifactKey: Guid(a86ce464584e4704aa419de88c5223b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Bush_03B.fbx using Guid(a86ce464584e4704aa419de88c5223b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505977602f65e759d7106af7fe6f3c02') in 0.078822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Fallen_Leaves_01B.fbx
+  artifactKey: Guid(3e8f5132ca70e0743a9c0549c3125fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Fallen_Leaves_01B.fbx using Guid(3e8f5132ca70e0743a9c0549c3125fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef080b573021f49c158b67317c90fc9') in 0.072242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_02B.fbx
+  artifactKey: Guid(209d56a384547db45b6aa63a2cbe00ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_02B.fbx using Guid(209d56a384547db45b6aa63a2cbe00ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c1c0ec54593500e21651004319e116') in 0.060011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_02A.fbx
+  artifactKey: Guid(6bc476fe8a15234488d5f7e56cb6d340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_02A.fbx using Guid(6bc476fe8a15234488d5f7e56cb6d340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1bd05a946de06a56b1a9e317022ded') in 0.052768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Fern_02A.fbx
+  artifactKey: Guid(95dd42a2476d2c64295823e5af26704c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Fern_02A.fbx using Guid(95dd42a2476d2c64295823e5af26704c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260cdd25c0d9989179226f8502296770') in 0.065071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Bush_01A.fbx
+  artifactKey: Guid(b4faa2141c16dce4ca0958f3035745cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Bush_01A.fbx using Guid(b4faa2141c16dce4ca0958f3035745cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3205d1b0631ab57ab1442cf5ddae31') in 0.084922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Camp_Fire_01A.fbx
+  artifactKey: Guid(7d6634ff41069394f965105e71279e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Camp_Fire_01A.fbx using Guid(7d6634ff41069394f965105e71279e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84a5095ebf3882787834ba0222a72e2') in 0.044492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Glowing_Lilly_01C.fbx
+  artifactKey: Guid(2c4ea9811ae2d5240b1bdc933944a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Glowing_Lilly_01C.fbx using Guid(2c4ea9811ae2d5240b1bdc933944a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e71d0693c7e39a589b67568a1a54cb') in 0.051921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_02A_LOD_1.fbx
+  artifactKey: Guid(d0d95c0c3da93604aa23f44482398094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_02A_LOD_1.fbx using Guid(d0d95c0c3da93604aa23f44482398094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff12d776ad4fe040ef7d6c3f6647240') in 0.076176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Board_Oak_Tree_01A.fbx
+  artifactKey: Guid(badee926d1efa4b46bed05a6cf2a0110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Board_Oak_Tree_01A.fbx using Guid(badee926d1efa4b46bed05a6cf2a0110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be681295948c16139b55128946d721c2') in 0.082442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Bush_03A.fbx
+  artifactKey: Guid(c938512605ffc58428ec4543822a2c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Bush_03A.fbx using Guid(c938512605ffc58428ec4543822a2c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00db82e6c4b197bf83ee721eff3e23a4') in 0.072299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Bush_03A_LOD_1.fbx
+  artifactKey: Guid(dddda28969f40a24881c9bc1b402f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Bush_03A_LOD_1.fbx using Guid(dddda28969f40a24881c9bc1b402f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f660d62ab1c9f3aa8e337c1c962206ef') in 0.077150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_01C.fbx
+  artifactKey: Guid(faad2bb1bc72594428e3a70c9b9b195d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_01C.fbx using Guid(faad2bb1bc72594428e3a70c9b9b195d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85580df85a0c43609c9f5c9e91a2b6a0') in 0.065728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_09A.fbx
+  artifactKey: Guid(7427f9c26670f3542b1f33df05541ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_09A.fbx using Guid(7427f9c26670f3542b1f33df05541ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020d41ee36d48137f3f51ceeaa506169') in 0.110595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01A_LOD_2.fbx
+  artifactKey: Guid(7744475cb6c232446a1f31a7d7d546e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01A_LOD_2.fbx using Guid(7744475cb6c232446a1f31a7d7d546e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff22d8bcd308fb41aba6f7e432c4c55') in 0.086043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_01A.fbx
+  artifactKey: Guid(7265418faae3fbe48a111e4087d8b071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_01A.fbx using Guid(7265418faae3fbe48a111e4087d8b071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1225aeb062b023051919f3df6f6d6df') in 0.056707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Leaf_01B.fbx
+  artifactKey: Guid(fe77c0082e270064c89924e5b3c7caa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Lotus_Leaf_01B.fbx using Guid(fe77c0082e270064c89924e5b3c7caa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3088569e35388b8cc1b04389fb4e57') in 0.055749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_12A.fbx
+  artifactKey: Guid(896dcf5b65c513c4a87e336010e47b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_12A.fbx using Guid(896dcf5b65c513c4a87e336010e47b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213fbe17094a32b771421707272a9601') in 0.070751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_06A.fbx
+  artifactKey: Guid(0e5f030be664d4c40adff327e3abaa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_06A.fbx using Guid(0e5f030be664d4c40adff327e3abaa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7465dcbac2e618a0c65e1fdad5f0430') in 0.070306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Grass_Patch_02.fbx
+  artifactKey: Guid(c8529c51ad24d3a4f92c8578f111c5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Grass_Patch_02.fbx using Guid(c8529c51ad24d3a4f92c8578f111c5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9f40592a10d03fd18923e02b346030') in 0.339688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02A_LOD_2.fbx
+  artifactKey: Guid(c9692b2b81a1e064da8b738bf9c46b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02A_LOD_2.fbx using Guid(c9692b2b81a1e064da8b738bf9c46b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c5246ee011ffcafb11b23fd437bb16') in 0.081876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_01A.fbx
+  artifactKey: Guid(1c0c06caf0f99584bab1fa09db23f125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_01A.fbx using Guid(1c0c06caf0f99584bab1fa09db23f125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefc8854acfd580586540c1923866008') in 0.052930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Leaf_01B.fbx
+  artifactKey: Guid(2e97280c1d0857d42be2adccb0ca9e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Leaf_01B.fbx using Guid(2e97280c1d0857d42be2adccb0ca9e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c126cf1b237ec8dc62f9ee82dd2aad14') in 0.067103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Glowing_Mushroom_01A.fbx
+  artifactKey: Guid(919e7756524076741b8337d0948212fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Glowing_Mushroom_01A.fbx using Guid(919e7756524076741b8337d0948212fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e34519a8fc847de4a83168b90ee3f7') in 0.056000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_02A.fbx
+  artifactKey: Guid(a3150f899f8f22d40b38eceb217ef831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_02A.fbx using Guid(a3150f899f8f22d40b38eceb217ef831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775ccfa0cca8fb502556224d1402c97a') in 0.101199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Bush_03B_LOD_1.fbx
+  artifactKey: Guid(f5c2c4fe2974e654bba0a05794640080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Bush_03B_LOD_1.fbx using Guid(f5c2c4fe2974e654bba0a05794640080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15a4cafa7ad590d9cf038a5612c5651') in 0.070819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Fern_02B.fbx
+  artifactKey: Guid(8901914b4d371a8449bf8277ae457e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Fern_02B.fbx using Guid(8901914b4d371a8449bf8277ae457e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a05a86448bdeb4fc9d175aabfffae4') in 0.066592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_13A.fbx
+  artifactKey: Guid(ff94261e926444249abc4b26ecb6683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_13A.fbx using Guid(ff94261e926444249abc4b26ecb6683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1583ff11dca97e00f61543be7d1fc245') in 0.098669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Decal_Debris_01A.fbx
+  artifactKey: Guid(ce7d2f2f188c16e419dced271d94ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Decal_Debris_01A.fbx using Guid(ce7d2f2f188c16e419dced271d94ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefe080b7862e25a678393b09ba10b76') in 0.069363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Decal_Debris_02A.fbx
+  artifactKey: Guid(8fc60c55f3326c24989dfd54313539fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Decal_Debris_02A.fbx using Guid(8fc60c55f3326c24989dfd54313539fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6008a8a11d035a7d761b792588d1f556') in 0.060770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Bush_02B.fbx
+  artifactKey: Guid(9efa17c479f3eb24f9ba2f777fc46320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Bush_02B.fbx using Guid(9efa17c479f3eb24f9ba2f777fc46320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9e26e3369ddd27b732d50478c75851') in 0.066532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Nettle_01A.fbx
+  artifactKey: Guid(7b25b40d0fb3698428bdb4fc74f3806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Nettle_01A.fbx using Guid(7b25b40d0fb3698428bdb4fc74f3806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd406c270b7ca1808e08bf0da47789d29') in 0.080116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Flower_01A.fbx
+  artifactKey: Guid(0e835724ebbc101488c793e70956f0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Flower_01A.fbx using Guid(0e835724ebbc101488c793e70956f0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281ab2a6478a376e8862335253fc1639') in 0.068782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Flower_Patch_02.fbx
+  artifactKey: Guid(487cb0943c5a1b942861e0a642a191b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Flower_Patch_02.fbx using Guid(487cb0943c5a1b942861e0a642a191b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf96aa0965cdcad252d1e4b9fd68899') in 0.115967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006713 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_02A.fbx
+  artifactKey: Guid(1255a37089fc1d841ad61e337f7056e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_02A.fbx using Guid(1255a37089fc1d841ad61e337f7056e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df5de8e7ba809927a81c7971be65d51') in 0.059560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Flower_01B.fbx
+  artifactKey: Guid(035f403eaed148247a84503821c53025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Flower_01B.fbx using Guid(035f403eaed148247a84503821c53025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce3aa55825ee288dfa0ad15857c79b0') in 0.095176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Board_Birch_Tree_04A.fbx
+  artifactKey: Guid(561ad38bd72faf648a4f30154d928bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Board_Birch_Tree_04A.fbx using Guid(561ad38bd72faf648a4f30154d928bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8606d60daf0ec0c7624ad66878c20a29') in 0.085275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Cone_01A.fbx
+  artifactKey: Guid(3296bf7356cbc0e47b25f75981743508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Cone_01A.fbx using Guid(3296bf7356cbc0e47b25f75981743508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7384f6ae9dcb35f7c93a0c6195872abb') in 0.079278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01A_LOD_1.fbx
+  artifactKey: Guid(238788a73439dbb438b0806b82b82daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01A_LOD_1.fbx using Guid(238788a73439dbb438b0806b82b82daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c39ae2b3f1563c54055c7bfc4529b45') in 0.105873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01C_LOD_1.fbx
+  artifactKey: Guid(db09bec254776954689238566f144b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01C_LOD_1.fbx using Guid(db09bec254776954689238566f144b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b2a87967c0fcc7139e6fea91f62ccd') in 0.098919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01B_LOD_1.fbx
+  artifactKey: Guid(48666625079abe244885aa66eb04eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01B_LOD_1.fbx using Guid(48666625079abe244885aa66eb04eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425f92c954a8cd79bde3d19b1ccd0d80') in 0.101619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_16A.fbx
+  artifactKey: Guid(1c4ad66452fd4054d82e527ff6d652ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_16A.fbx using Guid(1c4ad66452fd4054d82e527ff6d652ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a208fd0a12f73c32840a844c27393c91') in 0.190128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04B.fbx
+  artifactKey: Guid(9089f6378a829d84d8140a6563c33e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04B.fbx using Guid(9089f6378a829d84d8140a6563c33e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162537581f94fc268e2c92fbd9e63b13') in 0.095350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_03A.fbx
+  artifactKey: Guid(c5179ac16073dc14092baa88f4f8c46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_03A.fbx using Guid(c5179ac16073dc14092baa88f4f8c46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279b606004a9272b895ad04bcf972122') in 0.095080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_02A.fbx
+  artifactKey: Guid(9b7f6588430f8ac4d8ec8021ca23c3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_02A.fbx using Guid(9b7f6588430f8ac4d8ec8021ca23c3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7188e1d4f1cd86e76c9e9286365d352') in 0.108456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_02A_LOD_1.fbx
+  artifactKey: Guid(7af7e61087c4cb64fbd3ff09db729df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_02A_LOD_1.fbx using Guid(7af7e61087c4cb64fbd3ff09db729df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a1fde7996380be3f8b1ee19966df29') in 0.100424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04A.fbx
+  artifactKey: Guid(f32549d3d12b317438d60be92c5eb4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04A.fbx using Guid(f32549d3d12b317438d60be92c5eb4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4c523fffbe51ef533a129535d52aa3') in 0.112032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04A_LOD_1.fbx
+  artifactKey: Guid(a83b13fe4ee47cd4bafa9c139c601f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04A_LOD_1.fbx using Guid(a83b13fe4ee47cd4bafa9c139c601f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b33944964220a95f5277e262bf4c06c') in 0.119051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_01C.fbx
+  artifactKey: Guid(e08cf3d5142c399429886bf33725148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_01C.fbx using Guid(e08cf3d5142c399429886bf33725148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e53d07e52f87eb87efadf6e7ca576ff') in 0.110085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_02C_LOD_1.fbx
+  artifactKey: Guid(b772c900cf750094dba246a888a8146e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_02C_LOD_1.fbx using Guid(b772c900cf750094dba246a888a8146e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02da13fb370d2e7e3ea9b0c134275aa3') in 0.100077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04C_LOD_1.fbx
+  artifactKey: Guid(8e6c8c5ede51f7b45ba9c4fa29c8adf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04C_LOD_1.fbx using Guid(8e6c8c5ede51f7b45ba9c4fa29c8adf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8c82d448796fd412cbe202691079ec') in 0.107552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04B_LOD_1.fbx
+  artifactKey: Guid(94844f8ba11150047b28165c084984f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04B_LOD_1.fbx using Guid(94844f8ba11150047b28165c084984f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6a7dbceac3d16b7278dade0646b69c') in 0.106431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Reed_01A.fbx
+  artifactKey: Guid(8b47c0b257427e04aa78c600431a3089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Reed_01A.fbx using Guid(8b47c0b257427e04aa78c600431a3089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f563668c486b49c4286042a8eff17f29') in 0.076191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_01A.fbx
+  artifactKey: Guid(f1c41090c096b6b4bb3748b320a77805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_01A.fbx using Guid(f1c41090c096b6b4bb3748b320a77805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1ce3f45ae7cfe3edce21c75093f0f8') in 0.068512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_03A.fbx
+  artifactKey: Guid(0a15779f3e9a2534384bb350d7ffbbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_03A.fbx using Guid(0a15779f3e9a2534384bb350d7ffbbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fd27ae43a73a6ceefec2f2380ca45c') in 0.125175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_01A.fbx
+  artifactKey: Guid(87817947376204947bbbd6a4a8dc7483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_01A.fbx using Guid(87817947376204947bbbd6a4a8dc7483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c554749899ce494c7e85658b02f9ca66') in 0.051368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Fallen_01A.fbx
+  artifactKey: Guid(88cbfe3a0a92f7c41bf7e84107d94053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Fallen_01A.fbx using Guid(88cbfe3a0a92f7c41bf7e84107d94053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc864b6e728e2998e9d0efc07209fc8') in 0.061958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_02A.fbx
+  artifactKey: Guid(d78a7d5a257d51a4094232ead4f2f5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_02A.fbx using Guid(d78a7d5a257d51a4094232ead4f2f5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b120eb1f3ed63f37d7a3094403118ea9') in 0.071333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_05A.fbx
+  artifactKey: Guid(51a73c12cea48db4cabd947ce2ada5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_05A.fbx using Guid(51a73c12cea48db4cabd947ce2ada5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00a8fbafdc3df082233ab34d01b8f8e') in 0.058250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_06A_LOD_1.fbx
+  artifactKey: Guid(20c1d518f05501a47880ded08ac4891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_06A_LOD_1.fbx using Guid(20c1d518f05501a47880ded08ac4891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cbdf305fc6d0f01c3c29b03c87bc92') in 0.059896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Stone_Slab_01A.fbx
+  artifactKey: Guid(f85b6ac778412504e9810b2aba984bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Stone_Slab_01A.fbx using Guid(f85b6ac778412504e9810b2aba984bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9254a99fc209bfaf5f3bbd528ef119f5') in 0.063020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_01A.fbx
+  artifactKey: Guid(4f9d770e78ebb374db99e66631661d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_01A.fbx using Guid(4f9d770e78ebb374db99e66631661d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7d1410cf60343b77daf5ba6c12d63d') in 0.067683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Plant_02B_LOD_1.fbx
+  artifactKey: Guid(6c4f9a94b15851943bdbf42454251025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Plant_02B_LOD_1.fbx using Guid(6c4f9a94b15851943bdbf42454251025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64548ce5875c394d918d95b9b5c0ed95') in 0.074881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_05C_LOD_1.fbx
+  artifactKey: Guid(2f05a2c59067c4343b46f9e4db8e4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_05C_LOD_1.fbx using Guid(2f05a2c59067c4343b46f9e4db8e4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdfa39af5f9782b61dbb5ce1d484b17') in 0.110119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Plant_02A.fbx
+  artifactKey: Guid(76f7ee4fa75f3854ab72808504db2ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Plant_02A.fbx using Guid(76f7ee4fa75f3854ab72808504db2ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef93b746997313b17397ef86461a7a0') in 0.085320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Broken_01A.fbx
+  artifactKey: Guid(ac99a280563d54648968fb9a435d9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Broken_01A.fbx using Guid(ac99a280563d54648968fb9a435d9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c32d61d24e3f23b421b9e4f0e16b75') in 0.066434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_01B.fbx
+  artifactKey: Guid(6d9d8eaa731a5494fb03909583b9bb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_01B.fbx using Guid(6d9d8eaa731a5494fb03909583b9bb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817f04ab48481cbe31529956963d7902') in 0.063772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Stone_Slab_02A.fbx
+  artifactKey: Guid(c6b4dfc79438f304496b796b29d6b3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Stone_Slab_02A.fbx using Guid(c6b4dfc79438f304496b796b29d6b3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a06e5a472bd8f2e9057bc8b2ddd15b') in 0.061662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_02A.fbx
+  artifactKey: Guid(0ab2f64b6745e764bb29fb276c65b859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_02A.fbx using Guid(0ab2f64b6745e764bb29fb276c65b859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a5956cf7ead5c3db93dd2d9ede2b78') in 0.071451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_05A.fbx
+  artifactKey: Guid(2e6a2f414cb73344a92715de12f5a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_05A.fbx using Guid(2e6a2f414cb73344a92715de12f5a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffec2dfa2c9340ef8236d62247c5ad3b') in 0.057376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_03B.fbx
+  artifactKey: Guid(7c1dd57d2975eb447b75e22edda93435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_03B.fbx using Guid(7c1dd57d2975eb447b75e22edda93435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784dd197ef31b30f1933f8fa239af515') in 0.103673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_02A.fbx
+  artifactKey: Guid(77fa0ce13e663034ba86863c246993c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_02A.fbx using Guid(77fa0ce13e663034ba86863c246993c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229236fd0405319ad8196537ed09ed28') in 0.060841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Board_Pine_Tree_02A.fbx
+  artifactKey: Guid(a63b946c33d4ba245864460682b17927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Board_Pine_Tree_02A.fbx using Guid(a63b946c33d4ba245864460682b17927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3107a5c9932958186512256821fef5') in 0.073898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_03B.fbx
+  artifactKey: Guid(49bc342153ca526418b81af02eb01993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_03B.fbx using Guid(49bc342153ca526418b81af02eb01993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b8b7cd3b6ac7fe07a4bc3c4ecbc3e0') in 0.100879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01C_LOD_2.fbx
+  artifactKey: Guid(3f3f0333dde37194290d95dbbc6ac2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01C_LOD_2.fbx using Guid(3f3f0333dde37194290d95dbbc6ac2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72af4cc3b4197f02514ad1f8622de9f3') in 0.085071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Glowing_Lilly_02A.fbx
+  artifactKey: Guid(b2a018564941a744f815bd1f8432ab25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Glowing_Lilly_02A.fbx using Guid(b2a018564941a744f815bd1f8432ab25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb450a6d2a4f6e3fdff5735ad3b23fb') in 0.054874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_05A.fbx
+  artifactKey: Guid(f36a60678461b6b46b3a6e6294d5e5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_05A.fbx using Guid(f36a60678461b6b46b3a6e6294d5e5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8486b6a18917518925e3e0431102c169') in 0.090101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_14A.fbx
+  artifactKey: Guid(b57d1b66d746bb74d83d35af0253f5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_14A.fbx using Guid(b57d1b66d746bb74d83d35af0253f5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9188c04abc291e22b12b6107de21a3') in 0.107880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_04A.fbx
+  artifactKey: Guid(557116ac098be5646aa7cdb6afa4425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_04A.fbx using Guid(557116ac098be5646aa7cdb6afa4425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dce95fb70d3fd3b5be1b73a0f9f0bd') in 0.112232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Vine_01B_LOD_1.fbx
+  artifactKey: Guid(22e03bd417d809448805ae94fe571044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Vine_01B_LOD_1.fbx using Guid(22e03bd417d809448805ae94fe571044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449df67636158e456618b183624a2ef3') in 0.067873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Chair_01A.fbx
+  artifactKey: Guid(98b394fe53462b94bb9590d8f3f1a7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wooden_Chair_01A.fbx using Guid(98b394fe53462b94bb9590d8f3f1a7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9798ff3bcd740ab0f6e2d1edb77fda51') in 0.058050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_04A.fbx
+  artifactKey: Guid(9af8809a41823bc41aa26b9dc0d66751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_04A.fbx using Guid(9af8809a41823bc41aa26b9dc0d66751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45201c123eb3839085172e1e61335685') in 0.057659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wood_Stack_01A.fbx
+  artifactKey: Guid(07082429df5193f4195fac6ae21ced70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wood_Stack_01A.fbx using Guid(07082429df5193f4195fac6ae21ced70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3226c58e4d2768f7cb81795d1cb7c5') in 0.053382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Water_LillY_Leaf_01A.fbx
+  artifactKey: Guid(d09412bf51c0e5f4c8b332ff2db438bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Water_LillY_Leaf_01A.fbx using Guid(d09412bf51c0e5f4c8b332ff2db438bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f163e8972c88f38a40cc7e63164213d8') in 0.054070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_03B.fbx
+  artifactKey: Guid(d88fbc9d7bab4194a85f72407fe7e7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_03B.fbx using Guid(d88fbc9d7bab4194a85f72407fe7e7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2f5269ff63b25c5a007685f03cea43') in 0.059039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Swing_01B.fbx
+  artifactKey: Guid(c50c36eb8410d2f419349c488f833a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wooden_Swing_01B.fbx using Guid(c50c36eb8410d2f419349c488f833a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198086c066ea3b428e3451c23881565e') in 0.079849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Pavilion_01A.fbx
+  artifactKey: Guid(642e9c6832d4fe24ea9630da681d62db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wooden_Pavilion_01A.fbx using Guid(642e9c6832d4fe24ea9630da681d62db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c7bfe2bace3d0bac07d9bf1eee8ad3') in 0.074111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Vine_01A.fbx
+  artifactKey: Guid(8695ab3a7e5c7b544b2fa68426ce3dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Vine_01A.fbx using Guid(8695ab3a7e5c7b544b2fa68426ce3dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a0042d54aa1def6baed8fcafbf8275') in 0.068208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Fence_02A.fbx
+  artifactKey: Guid(b98e107b0bc94cb4ba8956abbb69acfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wooden_Fence_02A.fbx using Guid(b98e107b0bc94cb4ba8956abbb69acfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a8949dfd9be850f52ca2391a49debe') in 0.056820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Table_01A.fbx
+  artifactKey: Guid(83ab7b37868553a43a10288e9f294b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wooden_Table_01A.fbx using Guid(83ab7b37868553a43a10288e9f294b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8172b8babb584fb3902d078895a0cd') in 0.062240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Pole_02A.fbx
+  artifactKey: Guid(d013ea26ead5bd448ad336b79866aaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wooden_Pole_02A.fbx using Guid(d013ea26ead5bd448ad336b79866aaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dca8ff4aee4c217d743709d25e44351') in 0.059615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Pole_01A.fbx
+  artifactKey: Guid(0dd8c53639e814e49a71422e032cd458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wooden_Pole_01A.fbx using Guid(0dd8c53639e814e49a71422e032cd458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d46bf2ee10bfa4a6b0fd95c10f39a0e') in 0.062540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wood_Plank_02A.fbx
+  artifactKey: Guid(a70343c6c6aa45b48b596a12b9750bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wood_Plank_02A.fbx using Guid(a70343c6c6aa45b48b596a12b9750bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cc5b9b35807e61442d3fef55acd864') in 0.065034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Fence_01A.fbx
+  artifactKey: Guid(1d4884484d9c7e8429fd1ff4fb1c9c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wooden_Fence_01A.fbx using Guid(1d4884484d9c7e8429fd1ff4fb1c9c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e15ae284d29c3caf2fa380988c35f16') in 0.070688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Vine_01B.fbx
+  artifactKey: Guid(e91cf0a88a8f7be44a4a4b4852ac81e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Vine_01B.fbx using Guid(e91cf0a88a8f7be44a4a4b4852ac81e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed68773d61a9cfe8ecc783b590bc4f5') in 0.091471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_07A.fbx
+  artifactKey: Guid(5e6ae821bb33ce64298c9e758715e5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_07A.fbx using Guid(5e6ae821bb33ce64298c9e758715e5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e458aa159514f8a0ad436793863d3e4') in 0.093883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_01A.fbx
+  artifactKey: Guid(6c5d0853a8153ed4686e4f2bb0116b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_01A.fbx using Guid(6c5d0853a8153ed4686e4f2bb0116b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f939ef99d1d09b08f891f1dc33e15c') in 0.059405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Flower_Patch_01.fbx
+  artifactKey: Guid(3772b8ae1f4df3c4babcb16eb2bf185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Flower_Patch_01.fbx using Guid(3772b8ae1f4df3c4babcb16eb2bf185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d96d27ca0ed1cd12e01a5b414995bf9') in 0.129043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Glowing_Lilly_02C.fbx
+  artifactKey: Guid(cc95964b0d1f1044f99b87530aea8b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Glowing_Lilly_02C.fbx using Guid(cc95964b0d1f1044f99b87530aea8b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7367b46088f59a691b7edc47b96840') in 0.097243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_01B.fbx
+  artifactKey: Guid(6b40bda7253833644afe254a8bd2f931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_01B.fbx using Guid(6b40bda7253833644afe254a8bd2f931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7e38207c5684eb4fe3b92c9bfe0377') in 0.074884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_02C.fbx
+  artifactKey: Guid(d2ce952c9c644e94e909dac76b444d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_02C.fbx using Guid(d2ce952c9c644e94e909dac76b444d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6219e850497ed11208086be042e4c681') in 0.056373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_03A.fbx
+  artifactKey: Guid(5f6c6cc1c4ff94745ad6892bd49b9f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_03A.fbx using Guid(5f6c6cc1c4ff94745ad6892bd49b9f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c32e8d4d4157d75cb4300564271c85') in 0.083210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_02B.fbx
+  artifactKey: Guid(11f0d59fd1fb95342b7bc194d16fd641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_02B.fbx using Guid(11f0d59fd1fb95342b7bc194d16fd641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca67430ca7d3e63daa5bb1707672e64') in 0.091628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Fern_01B.fbx
+  artifactKey: Guid(73529d7b7bd60c34685c8becd219fb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Fern_01B.fbx using Guid(73529d7b7bd60c34685c8becd219fb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13aa64254dc89905966d9c1f7e8ce9f5') in 0.096312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_01B.fbx
+  artifactKey: Guid(1ff8d8660d930de4faaf8e3da93dc61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_01B.fbx using Guid(1ff8d8660d930de4faaf8e3da93dc61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b03e4adbf12096d6b9ee3e27d37ea0') in 0.074897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Cone_02A.fbx
+  artifactKey: Guid(f5513dd01f0265145a84a2d190ce7716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Cone_02A.fbx using Guid(f5513dd01f0265145a84a2d190ce7716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab5170de243806d3c5f38ec0d6847a9') in 0.063383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Bridge_02A.fbx
+  artifactKey: Guid(f0d60c51e51ec2b4cba5270187535b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Wooden_Bridge_02A.fbx using Guid(f0d60c51e51ec2b4cba5270187535b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1e2e623482559c220602c5ba8b7cc0') in 0.084405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_02B.fbx
+  artifactKey: Guid(072fab548a536854eb183ec80ceeb64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_02B.fbx using Guid(072fab548a536854eb183ec80ceeb64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b2a449a1f9bcc250941c88825ce0e1') in 0.097757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_02A.fbx
+  artifactKey: Guid(985bb817fbb2610428b81cedb8e9f7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_02A.fbx using Guid(985bb817fbb2610428b81cedb8e9f7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c3a678a434221bd960afbf799e2ba6') in 0.101152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 690.224448 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Dirt_Road_1A_D.terrainlayer
+  artifactKey: Guid(82a167d3820573d4995700bfcf9b3d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Dirt_Road_1A_D.terrainlayer using Guid(82a167d3820573d4995700bfcf9b3d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e013194706ba7e4c89ee9cc0a42f89ef') in 0.164906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_1A_D.tif
+  artifactKey: Guid(40b05e1edee0066469adff5ca1723217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_1A_D.tif using Guid(40b05e1edee0066469adff5ca1723217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0c0598841d8b8f7dbb8f111207ef45') in 0.111995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Grass_2A_D.tif
+  artifactKey: Guid(69d54a83d5986774eb5b8a0a062f4762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Grass_2A_D.tif using Guid(69d54a83d5986774eb5b8a0a062f4762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde5c3a077117367dcc6c2475ac07115') in 0.064338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Sand_1A_D.terrainlayer
+  artifactKey: Guid(b54d2076d64cc084c81eb5829c6c81f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Sand_1A_D.terrainlayer using Guid(b54d2076d64cc084c81eb5829c6c81f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf892e9b612b33190e1b485ef5f1acef') in 0.051284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Sand_1A_D.tif
+  artifactKey: Guid(13073d4d45e36434382eeb19d3467f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Sand_1A_D.tif using Guid(13073d4d45e36434382eeb19d3467f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f1b2722fce6c48b810a92e8dab5711') in 0.088795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_1A_D.terrainlayer
+  artifactKey: Guid(200be16447503174a9c0e065e9f1c6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_1A_D.terrainlayer using Guid(200be16447503174a9c0e065e9f1c6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb49a4aed2ebb3d080a55275623c97e') in 0.060964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_3A_D.terrainlayer
+  artifactKey: Guid(5ae6a6247d9fd7145bd438b27f9badc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_3A_D.terrainlayer using Guid(5ae6a6247d9fd7145bd438b27f9badc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa5a49049a3a5cd43c1de9ab7e4a98c') in 0.056461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_2A_D.tif
+  artifactKey: Guid(48760bf563ac2e5499b609e4eeb06100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_2A_D.tif using Guid(48760bf563ac2e5499b609e4eeb06100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaf168ae4bb7a0c651e165bcb10efee') in 0.062735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Grass_1A_D.tif
+  artifactKey: Guid(2bf41c6a5e818ed49bd421aa8fa96aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Grass_1A_D.tif using Guid(2bf41c6a5e818ed49bd421aa8fa96aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd53f414496257a7da62c1571d10cbab') in 0.071037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Dirt_1A_D.tif
+  artifactKey: Guid(93526ec4d8a4ffd4081db47c602ba856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Dirt_1A_D.tif using Guid(93526ec4d8a4ffd4081db47c602ba856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68878cf0919c2ee91082960aaa46924d') in 0.056279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_2A_D.terrainlayer
+  artifactKey: Guid(e33601c6c0b16da4ea298d948f929e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_2A_D.terrainlayer using Guid(e33601c6c0b16da4ea298d948f929e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb3dc05836bef5c90110717a2d51039') in 0.085181 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

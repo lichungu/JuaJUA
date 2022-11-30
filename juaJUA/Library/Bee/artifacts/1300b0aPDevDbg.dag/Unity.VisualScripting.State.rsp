@@ -116,8 +116,18 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ARGPS_USE_VUFORIA
+-define:PLAYMAKER
+-define:PLAYMAKER_1_9
+-define:PLAYMAKER_1_9_1
+-define:PLAYMAKER_1_8_OR_NEWER
+-define:PLAYMAKER_1_8_5_OR_NEWER
+-define:PLAYMAKER_1_9_OR_NEWER
+-define:PLAYMAKER_TMPRO
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/PlayMaker/ConditionalExpression.dll"
+-r:"Assets/Plugins/PlayMaker/PlayMaker.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -303,8 +313,9 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VRModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.XRModule.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
--r:"C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.ptc.vuforia.engine@25bf43b1d8/Vuforia/Plugins/Managed/Android/Vuforia.UnityExtensions.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/UnityEngine.UI.ref.dll"

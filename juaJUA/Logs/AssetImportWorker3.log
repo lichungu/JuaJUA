@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA
+C:/Users/lichu/Documents/jua/JuaJUA/juaJUA
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-54961
-Successfully changed project path to: C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA
-C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA
+57857
+Successfully changed project path to: C:/Users/lichu/Documents/jua/JuaJUA/juaJUA
+C:/Users/lichu/Documents/jua/JuaJUA/juaJUA
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 130.24 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 194.96 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 1.37 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/lichu/Documents/JUAJUA/JuaJUA/juaJUA/Assets
+[Subsystems] Discovering subsystems at path C:/Users/lichu/Documents/jua/JuaJUA/juaJUA/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -59,11 +59,12 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     5991 MB
     Driver:   31.0.15.1700
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -72,7 +73,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.016341 seconds.
+Registered in 0.013505 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
@@ -83,51 +84,82 @@ Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 99.02 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 121.23 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
+- Completed reload, in  1.075 seconds
 Domain Reload Profiling:
-	ReloadAssembly (737ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1076ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (516ms)
-			LoadAssemblies (108ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (398ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (320ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (356ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (72ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				InitializePlatformSupportModulesInManaged (77ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012259 seconds.
+Registered in 0.021393 seconds.
+Android Extension - Scanning For ADB Devices 4389 ms
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.60 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 115.06 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 [ARLocation]: Starting up!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -162,29 +194,29 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.452 seconds
+- Completed reload, in  3.299 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1453ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (3300ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (120ms)
-		EndReloadAssembly (1115ms)
-			LoadAssemblies (142ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (3060ms)
+			LoadAssemblies (591ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
+			SetupTypeCache (324ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (590ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (2021ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (824ms)
+				ProcessInitializeOnLoadMethodAttributes (902ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -192,53 +224,14 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4495 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (148.7 KB). Loaded Objects now: 4940.
-Memory consumption went from 154.6 MB to 154.5 MB.
-Total: 3.698500 ms (FindLiveObjects: 0.328500 ms CreateObjectMapping: 0.280900 ms MarkObjects: 2.909600 ms  DeleteObjects: 0.178800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 171.10 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (0.8 MB). Loaded Objects now: 4940.
-Memory consumption went from 66.8 MB to 66.1 MB.
-Total: 62.509100 ms (FindLiveObjects: 0.627800 ms CreateObjectMapping: 0.365000 ms MarkObjects: 60.979100 ms  DeleteObjects: 0.536200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 13.43 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (0.8 MB). Loaded Objects now: 4940.
-Memory consumption went from 66.8 MB to 66.1 MB.
-Total: 4.914900 ms (FindLiveObjects: 0.487000 ms CreateObjectMapping: 0.476600 ms MarkObjects: 3.404200 ms  DeleteObjects: 0.545900 ms)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 5746 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (163.2 KB). Loaded Objects now: 6514.
+Memory consumption went from 192.7 MB to 192.5 MB.
+Total: 3.827600 ms (FindLiveObjects: 0.455600 ms CreateObjectMapping: 0.451200 ms MarkObjects: 2.773700 ms  DeleteObjects: 0.146200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -253,37 +246,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 469406.026367 seconds.
-  path: Assets/sprites/assets-04.png
-  artifactKey: Guid(b415a0adeb5138d4bab715aa87c993ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/assets-04.png using Guid(b415a0adeb5138d4bab715aa87c993ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c57d61c7a39389ba49a769885c0bdf0') in 0.587829 seconds 
+  Time since last request: 41237.058297 seconds.
+  path: Assets/ARLocation/Prefabs/Sample Assets/AR Floor.prefab
+  artifactKey: Guid(fd8a1ea49b1bb463bb0f799cae30cdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Prefabs/Sample Assets/AR Floor.prefab using Guid(fd8a1ea49b1bb463bb0f799cae30cdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba8d0fc99c6a84a21054cf2f92a887d') in 0.171260 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/sprites/assets-07.png
-  artifactKey: Guid(070ce3c82cbeb5c44b50a6c4e301116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/assets-07.png using Guid(070ce3c82cbeb5c44b50a6c4e301116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4feb717b2f8a5453f91bc8edb082e85') in 0.060378 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/ARLocation/Prefabs/Sample Assets/ARLocationDevCamera.prefab
+  artifactKey: Guid(00a30469732339a4695a4b58d5f153ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Prefabs/Sample Assets/ARLocationDevCamera.prefab using Guid(00a30469732339a4695a4b58d5f153ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c298c3b5204b1ca657c3147d02ee258') in 0.010788 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/sprites/assets-05.png
-  artifactKey: Guid(500fa0a7e0d383b46b6cbb89c2f66844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/assets-05.png using Guid(500fa0a7e0d383b46b6cbb89c2f66844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fdd21b83cf71b10a6d96a36b4fd07a') in 0.038301 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/ARLocation/Prefabs/Sample Assets/Jet Smoke.prefab
+  artifactKey: Guid(a05724a78a8265544b660e2842eefb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Prefabs/Sample Assets/Jet Smoke.prefab using Guid(a05724a78a8265544b660e2842eefb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7c246df9b84759e81d23ac11b58d88') in 0.041986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARLocation/Prefabs/Sample Assets/ARGPS LOGO.prefab
+  artifactKey: Guid(987dd04d41b1fcf4a9ed5ade4d053c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Prefabs/Sample Assets/ARGPS LOGO.prefab using Guid(987dd04d41b1fcf4a9ed5ade4d053c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171690b16561d2c578d884aa64a5b417') in 0.085999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ARLocation/Prefabs/Sample Assets/ARGPS LOGO Variant.prefab
+  artifactKey: Guid(c23c5ef42ede27b4bb614fbad18d2f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Prefabs/Sample Assets/ARGPS LOGO Variant.prefab using Guid(c23c5ef42ede27b4bb614fbad18d2f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5107c0dc78a8b3cad2ad274c7cb06195') in 0.094485 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014164 seconds.
+Registered in 0.025867 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\JUAJUA\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.47 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 [ARLocation]: Starting up!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -318,40 +359,41 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.991 seconds
+- Completed reload, in  2.139 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1992ms)
-		BeginReloadAssembly (427ms)
+	ReloadAssembly (2140ms)
+		BeginReloadAssembly (187ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (176ms)
-		EndReloadAssembly (1407ms)
-			LoadAssemblies (242ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1761ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (450ms)
+			SetupTypeCache (452ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (663ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1038ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (59ms)
+				InitializePlatformSupportModulesInManaged (49ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (408ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (811ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 12.20 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4487 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (0.8 MB). Loaded Objects now: 4957.
-Memory consumption went from 160.3 MB to 159.5 MB.
-Total: 4.166500 ms (FindLiveObjects: 0.347800 ms CreateObjectMapping: 0.307000 ms MarkObjects: 2.986800 ms  DeleteObjects: 0.524200 ms)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 11.56 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5700 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (132.6 KB). Loaded Objects now: 6527.
+Memory consumption went from 193.9 MB to 193.8 MB.
+Total: 4.619900 ms (FindLiveObjects: 0.464500 ms CreateObjectMapping: 0.480100 ms MarkObjects: 3.525400 ms  DeleteObjects: 0.148900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -366,12 +408,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 36.92 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (0.8 MB). Loaded Objects now: 4957.
-Memory consumption went from 71.4 MB to 70.6 MB.
-Total: 8.546300 ms (FindLiveObjects: 0.746800 ms CreateObjectMapping: 0.563000 ms MarkObjects: 6.323500 ms  DeleteObjects: 0.911400 ms)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 25.07 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 87 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (127.4 KB). Loaded Objects now: 6527.
+Memory consumption went from 81.4 MB to 81.3 MB.
+Total: 4.327500 ms (FindLiveObjects: 0.557500 ms CreateObjectMapping: 0.481400 ms MarkObjects: 3.147300 ms  DeleteObjects: 0.140600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -386,12 +429,122 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 19.74 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (0.8 MB). Loaded Objects now: 4957.
-Memory consumption went from 71.4 MB to 70.6 MB.
-Total: 5.919500 ms (FindLiveObjects: 0.370400 ms CreateObjectMapping: 0.307300 ms MarkObjects: 4.310200 ms  DeleteObjects: 0.930200 ms)
+Registering precompiled user dll's ...
+Registered in 0.020199 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.824 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1825ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1572ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (1035ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (843ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 11.70 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 5700 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (130.0 KB). Loaded Objects now: 6531.
+Memory consumption went from 193.9 MB to 193.8 MB.
+Total: 5.347200 ms (FindLiveObjects: 0.770900 ms CreateObjectMapping: 0.923700 ms MarkObjects: 3.482300 ms  DeleteObjects: 0.169200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -404,3 +557,330 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 27.45 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 87 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (127.4 KB). Loaded Objects now: 6531.
+Memory consumption went from 81.4 MB to 81.3 MB.
+Total: 4.497100 ms (FindLiveObjects: 0.565100 ms CreateObjectMapping: 0.700100 ms MarkObjects: 3.058200 ms  DeleteObjects: 0.172900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022467 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2016ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1699ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (418ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1038ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (837ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 9.94 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5700 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (130.0 KB). Loaded Objects now: 6535.
+Memory consumption went from 193.9 MB to 193.8 MB.
+Total: 3.703300 ms (FindLiveObjects: 0.459400 ms CreateObjectMapping: 0.388300 ms MarkObjects: 2.679400 ms  DeleteObjects: 0.175500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029118 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lichu\Documents\jua\JuaJUA\juaJUA\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <a6afc08737454b11bbcd4cac94f8cab8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.276 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2278ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1919ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (492ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1139ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (901ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 11.52 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5700 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (130.3 KB). Loaded Objects now: 6539.
+Memory consumption went from 193.9 MB to 193.8 MB.
+Total: 5.700300 ms (FindLiveObjects: 0.803700 ms CreateObjectMapping: 0.961900 ms MarkObjects: 3.769800 ms  DeleteObjects: 0.163900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3101.871890 seconds.
+  path: Assets/ARLocation/Locations/IbiraPlaceAt03.asset
+  artifactKey: Guid(351dee132841dfd4ab5315568cab1ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Locations/IbiraPlaceAt03.asset using Guid(351dee132841dfd4ab5315568cab1ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c647fad4f0dbbca9ae66abb9a7e03406') in 0.047218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ARLocation/Locations/ParqueHotspot02.asset
+  artifactKey: Guid(878aafe3c8595d049ba38927a173c004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Locations/ParqueHotspot02.asset using Guid(878aafe3c8595d049ba38927a173c004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb02b5416accc465f4c35021761252a') in 0.011684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ARLocation/Locations/RgtGrdn01.asset
+  artifactKey: Guid(35d540154c8f5504c8dc9a4e2b1feb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Locations/RgtGrdn01.asset using Guid(35d540154c8f5504c8dc9a4e2b1feb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b110f992d9c629ac610ed2728f01fe') in 0.016339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ARLocation/Locations/Rgt.asset
+  artifactKey: Guid(ee3c6a6f0420495409d7197de6d17290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Locations/Rgt.asset using Guid(ee3c6a6f0420495409d7197de6d17290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a4a7f088d5c36b4185b65440a9317e') in 0.007889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ARLocation/Locations/RgtFront01.asset
+  artifactKey: Guid(990095499a0d48a4aa8cfa3778d3a0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Locations/RgtFront01.asset using Guid(990095499a0d48a4aa8cfa3778d3a0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ff6491db7cced65966f0d9044823b5') in 0.011150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ARLocation/Locations/Parque_Aranha_02.asset
+  artifactKey: Guid(2303e6c352b2d61419b9a825a7c62810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Locations/Parque_Aranha_02.asset using Guid(2303e6c352b2d61419b9a825a7c62810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728f2a6e4cd6e3c28eb018e59c13f92f') in 0.012371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ARLocation/Locations/Zombie02Mock.asset
+  artifactKey: Guid(e0c6135c57f14a54b856208abe761a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Locations/Zombie02Mock.asset using Guid(e0c6135c57f14a54b856208abe761a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb6e28efa937ad9a0878b84bc84a068') in 0.013097 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
